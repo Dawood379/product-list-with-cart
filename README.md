@@ -28,24 +28,22 @@ Users should be able to:
 
 ### Screenshot
 
-![](./preview.jpg)
+![](./screenshot.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [dev1001-product-list-with-cart.netlify.app](https://dev1001-product-list-with-cart.netlify.app/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- Flexbox and CSS Grid
-- Mobile-first workflow
+- HTML
+- CSS
+    - Mobile-first workflow
+    - BEM
 - JavaScript
-
-### What I learned
-Learn more about structuring my projects, separating codes, and OOP.
 
 ## Author
 

@@ -362,6 +362,8 @@ svg {
 
 /* page layout */
 .main {
+  max-width: 1440px;
+  margin: 0 auto;
   display: grid;
 }
 
@@ -375,6 +377,12 @@ svg {
   .main {
     padding: 4rem;
     grid-template-columns: 2fr minmax(400px, 1fr);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main {
+    padding-inline: 0;
   }
 }
 
