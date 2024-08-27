@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d/hub?share=true)
 - Live Site URL: [dev1001-product-list-with-cart.netlify.app](https://dev1001-product-list-with-cart.netlify.app/)
 
 ## My process
