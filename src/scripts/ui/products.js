@@ -25,20 +25,20 @@ function createProductCardHTML(productData) {
       <picture>
         <source media="(min-width: 768px)" srcset="../../${productData.image.desktop}">
         <source media="(min-width: 465px)" srcset="../../${productData.image.tablet}">
-        <img src="../../${productData.image.mobile}" class="card__image">
+        <img src="../../${productData.image.mobile}" class="card__image" alt="an image of ${productData.name}">
       </picture>
       <button class="btn btn--primary-outline btn--add-to-cart ${cartItem ? 'display-none' : ''}">
-        <img src="../../assets/images/icon-add-to-cart.svg" alt="add to cart"/>
+        <img src="../../assets/images/icon-add-to-cart.svg" alt="add to cart button">
         <span class="btn__text">Add to Cart</span>
       </button>
       <button class="btn btn--primary btn--quantity ${cartItem ? '' : 'display-none'}">
-        <div class="icon-circular-container">
+        <span class="icon-circular-container">
           <svg xmlns="http://www.w3.org/2000/svg" width="10" height="2" fill="none" viewBox="0 0 10 2"><path fill="#fff" d="M0 .375h10v1.25H0V.375Z"/></svg>
-        </div>
+        </span>
         <span class="btn__text card__quantity">${cartItem ? cartItem.quantity : 1}</span>
-        <div class="icon-circular-container">
+        <span class="icon-circular-container">
           <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 10 10"><path fill="#fff" d="M10 4.375H5.625V0h-1.25v4.375H0v1.25h4.375V10h1.25V5.625H10v-1.25Z"/></svg>
-        </div>
+        </span>
       </button>
     </div>
     <div class="card__body">

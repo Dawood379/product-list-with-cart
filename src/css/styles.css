@@ -380,12 +380,6 @@ svg {
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .main {
-    padding-inline: 0;
-  }
-}
-
 .cards-container {
   padding: 1rem;
 }
@@ -452,4 +446,8 @@ svg {
 }
 .attribution a {
   text-decoration: none;
+  color: var(--color-primary);
+}
+.attribution a:hover {
+  text-decoration: underline;
 }
