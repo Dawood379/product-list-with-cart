@@ -341,12 +341,15 @@ svg {
 
 /* modal config */
 :modal {
-  margin-top: 3rem;
   outline: 0;
   border: 0;
   border-radius: var(--borderRadius-card);
-  min-width: 100%;
+  min-width: 90%;
   padding: 0;
+  transform: translateX(-50%) translateY(-50%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
 }
 :modal::backdrop {
   background-color: rgba(40, 40, 40, 0.5);
@@ -354,7 +357,7 @@ svg {
 
 @media screen and (min-width: 465px) {
   :modal {
-    margin: 3rem auto;
+    margin: 0;
     width: 500px;
     min-width: 425px;
   }
